@@ -19,6 +19,7 @@ public class MainActivity extends Activity
         Button button1 = (Button) findViewById(R.id.button1);
         button1.setText ("My button");
         button1.setEnabled (false);
-        
+        CheckBox chb1 = (CheckBox) findViewById (R.id.chb1);
+        chb1.setChecked (true);
     }
 }
