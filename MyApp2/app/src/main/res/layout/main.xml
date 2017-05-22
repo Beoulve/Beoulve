@@ -41,7 +41,7 @@
           </Button>
 		  <CheckBox
 			  android:id="@+id/chb1"
-			  android:text="chb11">
+			  android:text="chb1">
 	      </CheckBox>
     </LinearLayout>
 </LinearLayout>
