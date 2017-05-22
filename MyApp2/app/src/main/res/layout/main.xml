@@ -39,5 +39,9 @@
               android:layout_height="100dp"
               android:text="Button4">
           </Button>
+		  <CheckBox
+			  android:id="@+id/chb1"
+			  android:text="chb1">
+	      </CheckBox>
     </LinearLayout>
 </LinearLayout>

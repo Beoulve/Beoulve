@@ -18,7 +18,7 @@ public class MainActivity extends Activity
         textView1.setText ("Next text in TextView");
         Button button1 = (Button) findViewById(R.id.button1);
         button1.setText ("My button");
-        button1.setEnablet (false);
+        button1.setEnabled (false);
         
     }
 }
