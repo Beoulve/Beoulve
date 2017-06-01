@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements onClickListener
     @Override
     public void onClick(View v){
         switch (v.getId()){
-            case R.id.button1: editText.setText("Нажата кнопка button1"); break;
+            case R.id.button1: editText.setText("Нажата кнопка button1."); break;
             case R.id.button2: editText.setText("Нажата кнопка button2"); break;
             case R.id.button3: editText.setText("Нажата кнопка button3"); break;
             case R.id.button4: editText.setText("Нажата кнопка button4"); break;
