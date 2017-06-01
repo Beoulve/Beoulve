@@ -10,6 +10,11 @@ import android.view.View.OnClickListener;
 
 public class MainActivity extends Activity implements onClickListener
 {
+    final Button button1 = (Button)findViewById(R.id.button1);
+    final Button button2 = (Button)findViewById(R.id.button2);
+    final Button button3 = (Button)findViewById(R.id.button3);
+    final Button button4 = (Button)findViewById(R.id.button4);
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -22,18 +27,13 @@ public class MainActivity extends Activity implements onClickListener
         button1.setEnabled (true);
         CheckBox chb1 = (CheckBox) findViewById (R.id.chb1);
         chb1.setChecked (true);
-    }
-
-    final Button button1 = (Button)findViewById(R.id.button1);
-    final Button button2 = (Button)findViewById(R.id.button2);
-    final Button button3 = (Button)findViewById(R.id.button3);
-    final Button button4 = (Button)findViewById(R.id.button4);
 
     //один обработчки для всех кнопок
-    button1.setOnClickListener(This);
-    button2.setOnClickListener(This);
-    button3.setOnClickListener(This);
-    button4.setOnClickListener(This);
+    button1.setOnClickListener(this);
+    button2.setOnClickListener(this);
+    button3.setOnClickListener(this);
+    button4.setOnClickListener(this);
+    }
 
     //проверяем, какая кнопка нажата.
     @Override
